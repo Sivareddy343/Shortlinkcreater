@@ -10,7 +10,7 @@ class StatsPage extends Component {
     error: "",
   };
 
-  API_BASE_URL = "http://localhost:3001"; 
+  API_BASE_URL = "https://shortlinkcreater.onrender.com"; 
 
   componentDidMount() {
     this.loadStats();

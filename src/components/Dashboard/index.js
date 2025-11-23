@@ -13,7 +13,7 @@ class Dashboard extends Component {
     
   };
 
-  API_BASE_URL = "http://localhost:3001"; 
+  API_BASE_URL = "https://shortlinkcreater.onrender.com"; 
   onChangeCode = (event) => {
     this.setState({ Shortcode: event.target.value });
   }
