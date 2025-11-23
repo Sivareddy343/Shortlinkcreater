@@ -1,0 +1,130 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: black; 
+  color: white
+}
+
+.maincontainer{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 10px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.title2 {
+  margin: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.container2 {
+  flex: 1;
+  padding: 0 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  background: black;
+  border-radius: 12px;
+  box-shadow: 0 18px 40px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.table-container {
+  margin-top: 1opx;
+}
+.link-form {
+  display: grid;
+  align-items: flex-end;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 15px;
+  color:white;
+  margin: 10px;
+  
+}
+
+.form-input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  background: black;
+  color: white;
+  font-size: 15px;
+}
+.btn {
+  border: none;
+  border-radius: 20px;
+  padding: 5px 6px;
+  font-size: 15px;
+  margin:10px;
+}
+
+.btn-primary {
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: 600;
+  width: 200px;
+}
+.btn-delete {
+  background: #f97373;
+  color: #111827;
+  font-weight: 500;
+  width: 100px;
+}
+.table-container2 {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.links-container {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+}
+th{
+    padding: 10px;
+}
+
+
+.link-container {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #e5e7eb;
+}
+
+.code-container {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #e5e7eb;
+  font-size: 15px;
+  color:blue;
+  border: 1px solid skyblue;
+}
+
